@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title>3일차 학습</title>
+	</head>
+	<body>
+		<header>
+			<h1>사이트연습</h1>
+			<nav>네비게이션 (메뉴1)</nav>
+		</header>
+		<main>
+			<section>
+				<h2>대메뉴 1</h2>
+				<article>
+					<h3>중메뉴 1</h3>
+					<div>
+						<h4>소메뉴 1</h4>
+						<p>어쩌구저쩌구 1</p>
+						<p><strong>어쩌구</strong> 저쩌구 2</p>
+
+						<p>CO<sup>2</sup></p>
+							
+						<span><u>인라인1</u></span>
+						<span>인라인2</span>
+					</div>
+				</article>
+				<article>
+					<h3>중메뉴 2</h3>
+					<ol>
+						<li>순서1</li>
+						<li>순서2</li>
+					</ol>
+
+					<ul>
+						<li>순서없음1</li>
+						<li>순서없음2</li>
+					</ul>
+				</article>
+			</section>
+
+			<section>
+				<h2>대메뉴 2</h2>
+
+				<table>
+					<caption>테이블에대한 설명 (어떤테이블인지 설명)</caption>
+					<colgroup>
+
+					</colgroup>
+					<thead>
+						<tr>
+							<th colspan="2">칼럼1</th>
+							<th rowspan="2">칼럼2</th>
+						</tr>
+						<tr>
+							<th>칼럼2-1</th>	
+							<th>칼럼2-2</th>	
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td>내용1-1</td>
+							<td>내용1-2</td>
+							<td>내용2</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+
+			<section>
+				<h2>이미지넣기</h2>
+				<img src="--" alt="이미지에 대한 설명(대체텍스트)">
+
+				<a href="https://ko.wikipedia.org/wiki/%EA%B9%80%EC%86%8C%ED%98%9C" title="김소혜 나무위키 링크" target="_self">김소혜 나무 위키 바로가기</a>
+			</section>
+
+			<section>
+				<h2>유튜브 아이피레임</h2>
+				<iframe width="560" height="315" src="" allowfullscreen></iframe>
+			</section>
+		</main>
+		<footer>
+			주소정보 <br>
+			소유권명시
+		</footer>
+	</body>
+</html>
