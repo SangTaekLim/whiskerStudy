@@ -1,0 +1,49 @@
+#wrap{
+	position:relative;
+}
+#header{
+	background-color:#000;
+}
+#header::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+#header #logo{
+	float:left;
+	color:#fff;
+}
+#header #nav{
+	float:left;
+}
+#header #nav > ul{
+	margin-left:30px;
+}
+#header #nav > ul::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+#header #nav > ul > li{
+	float:left;
+	width:50px;
+	height:50px;
+	margin-right:25px;
+	background-color:red;
+}
+#header .sitemap-btn{
+	float:right;
+}
+
+
+#main{
+	position:relative;
+}
+#main #section-01{
+	width:300px;
+	margin:0 auto;
+}
+
+#main #section-01 .info{
+	display:block;
+}
